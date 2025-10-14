@@ -9,10 +9,10 @@ export const Home = () => {
        gap-4 items-start"
       >
         <div className="">
-        <h2 className="text-2xl  md:text-[50px] font-bold mb-4 flex-shrink-0">
+        <h2 className="text-2xl  md:text-[50px] mb-4 flex-shrink-0">
           STOX Posting &
         </h2>
-         <h2 className="text-2xl md:text-[50px] font-bold mb-4">
+         <h2 className="text-2xl md:text-[50px] mb-4">
          Publishing
         </h2>
         </div>
@@ -20,7 +20,7 @@ export const Home = () => {
           <p className="text-2xl font-semibold mb-2 lg:m-2">
             Professional Reliability
           </p>
-          <div className="m-4">
+          <div className="m-4 lg:mt-15">
             <div className="inline-block bg-[#0E2E47] text-white px-4 py-2 rounded hover:bg-[#1a3c5d] transition ">
               1-801-477-STOX
             </div>
