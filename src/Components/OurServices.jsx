@@ -1,8 +1,8 @@
-import { Copyright } from "../Components/Copyright";
+import { Copyright } from "./Copyright";
 
 export const OurServices = () => {
   return (
-    <div className="mx-20 my-2">
+    <div className="mx-80 my-2">
       <div>
         <h1 className="text-[#FE6E00] text-6xl font-bold ">Services</h1>
         <div className="m-2">
@@ -31,7 +31,7 @@ export const OurServices = () => {
           </p>
         </div>
 
-        <div className="m-2">
+        <div className="m-2 mb-8">
           <h2 className="text-[20px] my-3">Publishing</h2>
           <p className="text-[#9DB1BF] text-[13px]">
             We have newspapers all over the states we cover. With all the

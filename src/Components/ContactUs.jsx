@@ -60,8 +60,9 @@ export const ContactUs = ()=>{
             </form>
         </div>
       </div>
+       <Copyright/>
     </div>
-    <Copyright/>
+   
     </div>
     )
 }

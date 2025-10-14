@@ -3,7 +3,7 @@ import { Copyright } from "./Copyright";
 export const About = () => {
   return (
     <div>
-      <div className="mx-20">
+      <div className="mx-80">
         <h1 className="text-[#FE6E00] text-6xl font-bold ">About</h1>
         <h2 className="my-2 text-xl">
           The only one-stop solution for publication, posting and foreclosure
@@ -18,16 +18,16 @@ export const About = () => {
             we are excited to provide a great customer experience through
             dedication, and responsiveness.
           </p>
-          <p>
+          <p className="mb-5">
             STOX can also provide FNMA/FHLMC pricing. We are insured and aware
             of the importance of proper posting and publishing regulations and
             requirements to ensure a successful Trustee Sale. We are eager to
             provide a true customized solution to meet all of your needs.
-          </p>                                              
+          </p>     
+          <Copyright/>                                         
         </div>
       </div>
 
-   <Copyright/>
       
     </div>
   );

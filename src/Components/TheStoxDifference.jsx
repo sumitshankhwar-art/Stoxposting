@@ -2,7 +2,7 @@ import { Copyright } from "./Copyright";
 
 export const TheStoxDifference = () => {
   return (
-    <div className="mx-20 my-2">
+    <div className="mx-80 my-2">
       <div>
         <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold ">The STOX Difference</h1>
 

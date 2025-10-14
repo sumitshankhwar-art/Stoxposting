@@ -1,8 +1,8 @@
-import { Copyright } from "../Components/Copyright";
+import { Copyright } from "./Copyright";
 
 export const Home = () => {
   return (
-    <div className="p-4 text-center m-10">
+    <div className="p-4 text-center m-10 mx-80">
     
       <div
         className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2
@@ -33,7 +33,7 @@ export const Home = () => {
           className="mx-auto"
         />
       </div>
-      <div className="text-left md:pl-4 text-gray-200 ">
+      <div className="text-left md:pl-4 text-gray-200 mb-8 ">
         <p className="text-gray-600 mt-2">
           Our world revolves around you, the client. We make sure all your
           assignments are handled with care and speed.
