@@ -2,7 +2,7 @@ import { Copyright } from "./Copyright";
 
 export const Home = () => {
   return (
-    <div className="p-4 text-center m-10 mx-80">
+    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 ">
     
       <div
         className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2

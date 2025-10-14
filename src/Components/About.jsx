@@ -3,7 +3,7 @@ import { Copyright } from "./Copyright";
 export const About = () => {
   return (
     <div>
-      <div className="mx-80">
+      <div className="mx-10 md:mx-20 lg:mx-80">
         <h1 className="text-[#FE6E00] text-6xl font-bold ">About</h1>
         <h2 className="my-2 text-xl">
           The only one-stop solution for publication, posting and foreclosure

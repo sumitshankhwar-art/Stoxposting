@@ -2,7 +2,7 @@ import { Copyright } from "./Copyright";
 
 export const OurServices = () => {
   return (
-    <div className="mx-80 my-2">
+    <div className="mx-10 md:mx-20 lg:mx-80 my-2">
       <div>
         <h1 className="text-[#FE6E00] text-6xl font-bold ">Services</h1>
         <div className="m-2">

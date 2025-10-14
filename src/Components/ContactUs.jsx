@@ -2,7 +2,7 @@ import { Copyright } from "../Components/Copyright"
 
 export const ContactUs = ()=>{
     return (
-    <div className="mx-80">
+    <div className="mx-10 md:mx-20 lg:mx-80">
         <div>
             <div className="p-2">
                 <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold ">Contact Us</h1>

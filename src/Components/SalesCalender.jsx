@@ -3,7 +3,7 @@ import { Copyright } from "./Copyright";
 export const Salescalender = () => {
   return (
     <div>
-      <div className="mx-80">
+      <div className="mx-10 md:mx-20 lg:mx-80">
         <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold ">Sales Calendars</h1>
         <h3 className="my-2 text-2xl">To view our sale calendars please use the link below.</h3>
         <div className="mt-5 mb-5">
