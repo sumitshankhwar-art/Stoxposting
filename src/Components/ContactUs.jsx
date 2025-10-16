@@ -31,7 +31,6 @@ export const ContactUs = () => {
       });
 
       const data = await res.json();
-      alert(data.message);
     } catch (err) {
       console.error(err);
       alert("Failed to send message. Try again.");
