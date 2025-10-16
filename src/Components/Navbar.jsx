@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { TextAlignJustify,X } from 'lucide-react';
 import { useState } from "react";
+import cornerLogo from "../assets/logo.png"
 
 
 export const Navbar = () => {
@@ -13,7 +14,7 @@ export const Navbar = () => {
     <div className="p-3 flex bg-[#091f30] justify-between items-center border-b-[5px] border-[#9DB1BF] h-[95px]"   style={{ fontFamily: "'Anton', sans-serif" }}
  >
       <Link to="/home" className="w-[10rem] h-full">
-        <img src="/src/assets/logo.png" alt="logo" className="object-contain h-full"/>
+        <img src={cornerLogo} alt="logo" className="object-contain h-full"/>
       </Link>
       {/* nav menu */}  
       <div className="hidden md:flex items-center justify-center flex-grow lg:gap-40">
