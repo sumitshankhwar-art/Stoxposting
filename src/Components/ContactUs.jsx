@@ -10,8 +10,12 @@ export const ContactUs = () => {
     message: "",
   });
 
+
+  const [submitted, setSubmitted] = useState(false);
+   const [error, setError] = useState("");
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    setError("");
   };
 
   const handleSubmit = async (e) => {
@@ -33,9 +37,13 @@ export const ContactUs = () => {
       });
 
       const data = await res.json();
+          setSubmitted(true);
+                setError("");
+
     } catch (err) {
-      console.error(err);
-      alert("Failed to send message. Try again.");
+       console.error(err);
+      setError("Failed to send message. Please try again.");
+      setSubmitted(false);;
     }
   };
 
@@ -102,9 +110,28 @@ export const ContactUs = () => {
                   onChange={handleChange}
                 ></textarea>
               </div>
-              <button type="submit" className="w-32 bg-gray-700 text-white p-2">
-                Submit
-              </button>
+              <div className="flex flex-row justify-between items-center">
+             <div className="text-left" style={{ fontFamily: "Outfit, sans-serif" }}>
+                {submitted && (
+                  <p className="text-[#FE6E00] font-semibold">
+                    Thanks for submitting!
+                  </p>
+                )}
+                {error && (
+                  <p className="text-[#FE6E00] font-semibold">
+                    {error}
+                  </p>
+                )}
+              </div>
+             <div className="">
+                <button
+                  type="submit"
+                  className="w-32 cursor-pointer bg-gray-700 text-white p-2 rounded hover:bg-gray-600 transition"
+                >
+                  Submit
+                </button>
+              </div>
+              </div>
             </form>
           </div>
         </div>
