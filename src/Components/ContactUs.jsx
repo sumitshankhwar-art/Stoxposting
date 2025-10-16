@@ -28,6 +28,7 @@ export const ContactUs = () => {
           name,
           email: formData.email,
           message: formData.message,
+          phone: formData.phone,
         }),
       });
 
