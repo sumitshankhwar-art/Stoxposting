@@ -1,4 +1,5 @@
 import { Copyright } from "./Copyright";
+import logo from "../assets/d9b98c_2e0dae22681e48b1aec0bb9d0e3fd45d~mv2.png";
 
 export const Home = () => {
   return (
@@ -29,7 +30,7 @@ export const Home = () => {
         </div>
       <div>
         <img
-          src="src/assets/d9b98c_2e0dae22681e48b1aec0bb9d0e3fd45d~mv2.png"
+          src={logo}
           alt="STOX Posting & Publishing"
           className="mx-auto "
         />

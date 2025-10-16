@@ -20,7 +20,7 @@ export const ContactUs = () => {
     const name = `${formData.firstName} ${formData.lastName}`;
 
     try {
-      const res = await fetch("http://localhost:3001/contact", {
+      const res = await fetch("https://stoxpublishing.com/api-stoxposting/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
