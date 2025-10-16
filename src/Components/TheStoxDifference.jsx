@@ -2,9 +2,9 @@ import { Copyright } from "./Copyright";
 
 export const TheStoxDifference = () => {
   return (
-    <div className="mx-10 md:mx-20 lg:mx-80 my-2">
+    <div className="mx-10 md:mx-20 lg:mx-100 my-2">
       <div>
-        <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold ">The STOX Difference</h1>
+        <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold "  style={{ fontFamily: "'Roboto', sans-serif" }}>The STOX Difference</h1>
 
         <div>
           <h2 className="text-2xl m-2 mt-8">We'll find a way to stand out above the rest</h2>

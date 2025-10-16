@@ -2,12 +2,12 @@ import { Copyright } from "./Copyright";
 
 export const OurServices = () => {
   return (
-    <div className="mx-10 md:mx-20 lg:mx-80 my-2">
-      <div>
-        <h1 className="text-[#FE6E00] text-6xl font-bold ">Services</h1>
-        <div className="m-2">
-          <h2 className="text-[20px] my-3">Trustee’s Sales</h2>
-          <p className="text-[#9DB1BF] text-[13px]">
+    <div className="mx-10 md:mx-20 lg:mx-100 my-2"  style={{ fontFamily: "'Roboto', sans-serif" }}>
+      <div >
+        <h1 className="text-[#FE6E00] text-7xl font-bold ">Services</h1>
+        <div className="m-2 md:my-8"  >
+          <h2 className="text-[24px] my-3 md:my-8">Trustee’s Sales</h2>
+          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             With each state having differing requirements for Posting,
             Publishing and Sales, STOX keeps up with the laws that govern the
             states that we do work in. We make sure that our auctioneers comply
@@ -19,9 +19,9 @@ export const OurServices = () => {
           </p>
         </div>
 
-        <div className="m-2">
-          <h2 className="text-[20px] my-3">Posting Service</h2>
-          <p className="text-[#9DB1BF] text-[13px]">
+        <div className="m-2 md:my-8">
+          <h2 className="text-[24px] my-3 md:my-8 ">Posting Service</h2>
+          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             STOX Posting and Publishing is leading the way with client
             satisfaction. We are a full service Posting company in Utah, Idaho,
             Washington, Nevada, Arizona, Oregon, and California. With the
@@ -31,9 +31,9 @@ export const OurServices = () => {
           </p>
         </div>
 
-        <div className="m-2 mb-8">
-          <h2 className="text-[20px] my-3">Publishing</h2>
-          <p className="text-[#9DB1BF] text-[13px]">
+        <div className="m-2 mb-8 md:my-8">
+          <h2 className="text-[24px] my-3 md:my-8">Publishing</h2>
+          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             We have newspapers all over the states we cover. With all the
             newspapers available, we research their prices as well as their
             dependability and pick the publishing vendor that is most

@@ -8,10 +8,10 @@ export const PageTransition = ({ children }) => {
     <AnimatePresence mode="wait">
       <motion.div
         key={location.pathname}
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 0.5 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 1}}
-        transition={{ duration: 0.4 }} // ~less than half a second fade
+        transition={{ duration: 0.5 }} // ~less than half a second fade
       >
         {children}
       </motion.div>

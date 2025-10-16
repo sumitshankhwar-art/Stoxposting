@@ -2,13 +2,14 @@ import { Copyright } from "./Copyright";
 
 export const Home = () => {
   return (
-    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 ">
+    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 lg:max-w-250 lg:mt-16 lg:h-500"   style={{ fontFamily: "Outfit, sans-serif" }}>
     
       <div
         className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2
        gap-4 items-start"
       >
-        <div className="">
+        <div className=" mt-10 font-semibold" 
+>
         <h2 className="text-2xl  md:text-[50px] mb-4 flex-shrink-0">
           STOX Posting &
         </h2>
@@ -16,12 +17,12 @@ export const Home = () => {
          Publishing
         </h2>
         </div>
-        <div className="row-start-2">
-          <p className="text-2xl font-semibold mb-2 lg:m-2">
+        <div className="row-start-2 lg:mt-5">
+          <p className="text-3xl  mb-2 lg:m-2">
             Professional Reliability
           </p>
-          <div className="m-4 lg:mt-15">
-            <div className="inline-block bg-[#0E2E47] text-white px-4 py-2 rounded hover:bg-[#1a3c5d] transition ">
+          <div className="m-4 lg:mt-25">
+            <div className="inline-block bg-[#0E2E47] text-white px-10 py-2 rounded hover:bg-[#1a3c5d] transition ">
               1-801-477-STOX
             </div>
           </div>
@@ -30,20 +31,20 @@ export const Home = () => {
         <img
           src="src/assets/d9b98c_2e0dae22681e48b1aec0bb9d0e3fd45d~mv2.png"
           alt="STOX Posting & Publishing"
-          className="mx-auto"
+          className="mx-auto "
         />
       </div>
-      <div className="text-left md:pl-4 text-gray-200 mb-8 ">
-        <p className="text-gray-600 mt-2">
+      <div className="text-left md:pl-20 md:ml-2 text-gray-400 mb-8 " style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+        <p className=" mt-2 text-[1.1rem]">
           Our world revolves around you, the client. We make sure all your
           assignments are handled with care and speed.
         </p>
-        <p className="text-gray-600 lg:my-3">
+        <p className=" lg:my-3 text-[1.1rem]">
           We have account coordinators standing by to assist you with notice
           postings, publications, and all other parts of the foreclosure
           process.
         </p>
-        <p className="text-gray-600 lg:my-3">
+        <p className="lg:my-3 text-[1.1rem]">
           Call us today, and see why we have the highest rated support team year
           after year.
         </p>
