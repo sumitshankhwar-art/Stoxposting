@@ -25,7 +25,7 @@ export const Home = () => {
           </p>
           <div className="m-4 lg:mt-25">
             <div className="inline-block bg-[#0E2E47] text-white px-10 py-2 rounded hover:bg-[#1a3c5d] transition ">
-              1-801-477-STOX
+            1 (844) 477-STOX
             </div>
           </div>
         </div>
