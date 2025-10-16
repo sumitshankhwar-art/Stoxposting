@@ -37,6 +37,15 @@ export const ContactUs = () => {
       });
 
       const data = await res.json();
+       
+       setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+
           setSubmitted(true);
                 setError("");
 
