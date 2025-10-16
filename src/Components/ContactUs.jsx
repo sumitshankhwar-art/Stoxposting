@@ -37,6 +37,15 @@ export const ContactUs = () => {
       });
 
       const data = await res.json();
+       
+       setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+
           setSubmitted(true);
                 setError("");
 
@@ -48,7 +57,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="mx-10 md:mx-20 lg:mx-100" style={{ fontFamily: "'Roboto', sans-serif" }}>
+    <div className="mx-[5%] md:mx-[10%] lg:mx-[15%]" style={{ fontFamily: "'Roboto', sans-serif" }}>
       <div>
         <div className="p-2">
           <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold">Contact Us</h1>

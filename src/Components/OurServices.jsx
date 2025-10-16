@@ -2,7 +2,7 @@ import { Copyright } from "./Copyright";
 
 export const OurServices = () => {
   return (
-    <div className="mx-10 md:mx-20 lg:mx-100 my-2"  style={{ fontFamily: "'Roboto', sans-serif" }}>
+    <div className="mx-[5%] md:mx-[10%] lg:mx-[15%] my-2"  style={{ fontFamily: "'Roboto', sans-serif" }}>
       <div >
         <h1 className="text-[#FE6E00] text-7xl font-bold ">Services</h1>
         <div className="m-2 md:my-8"  >
