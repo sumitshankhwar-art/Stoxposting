@@ -18,9 +18,10 @@ export const ContactUs = () => {
     e.preventDefault();
 
     const name = `${formData.firstName} ${formData.lastName}`;
+     const apiUrl = import.meta.env.VITE_BASE_URL;
 
     try {
-      const res = await fetch("http://localhost:3001/contact", {
+      const res = await fetch(`${apiUrl}/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
