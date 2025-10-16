@@ -23,7 +23,9 @@ const router = createBrowserRouter([
       {path:"contact",element:<ContactUs/>},
     ],
   },
-]);
+],{
+  basename: '/stoxposting' 
+});
 
 createRoot(document.getElementById('root')).render(
   <>   
