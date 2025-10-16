@@ -3,7 +3,7 @@ import logo from "../assets/d9b98c_2e0dae22681e48b1aec0bb9d0e3fd45d~mv2.png";
 
 export const Home = () => {
   return (
-    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 lg:max-w-250 lg:mt-16 lg:h-500"   style={{ fontFamily: "Outfit, sans-serif" }}>
+    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 lg:max-w-250 lg:mt-16 "   style={{ fontFamily: "Outfit, sans-serif" }}>
     
       <div
         className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2
