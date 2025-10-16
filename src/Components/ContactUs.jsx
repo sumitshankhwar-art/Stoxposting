@@ -21,7 +21,11 @@ export const ContactUs = () => {
      const apiUrl = import.meta.env.VITE_BASE_URL;
 
     try {
+<<<<<<< HEAD
+      const res = await fetch("https://stoxpublishing.com/api-stoxposting/contact", {
+=======
       const res = await fetch(`${apiUrl}/contact`, {
+>>>>>>> 9ffd6392b68eeaed180c14c9a3e12886594d6894
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
