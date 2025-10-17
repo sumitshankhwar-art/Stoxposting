@@ -36,7 +36,7 @@ export const Home = () => {
           className="mx-auto "
         />
       </div>
-      <div className="text-left md:pl-[15%] md:ml-[1%] text-gray-400 mb-8 " style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+      <div className="text-left md:pl-[15%] md:ml-[1%] text-gray-600 mb-8 " style={{ fontFamily: "Josefin Sans, sans-serif" }}>
         <p className=" mt-2 text-[1.1rem]">
           Our world revolves around you, the client. We make sure all your
           assignments are handled with care and speed.
