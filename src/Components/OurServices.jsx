@@ -7,7 +7,7 @@ export const OurServices = () => {
         <h1 className="text-[#FE6E00] text-7xl font-bold ">Services</h1>
         <div className="m-2 md:my-8"  >
           <h2 className="text-[24px] my-3 md:my-8">Trustee’s Sales</h2>
-          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+          <p className="text-gray-600 text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             With each state having differing requirements for Posting,
             Publishing and Sales, STOX keeps up with the laws that govern the
             states that we do work in. We make sure that our auctioneers comply
@@ -21,7 +21,7 @@ export const OurServices = () => {
 
         <div className="m-2 md:my-8">
           <h2 className="text-[24px] my-3 md:my-8 ">Posting Service</h2>
-          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+          <p className="text-gray-600 text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             STOX Posting and Publishing is leading the way with client
             satisfaction. We are a full service Posting company in Utah, Idaho,
             Washington, Nevada, Arizona, Oregon, and California. With the
@@ -33,7 +33,7 @@ export const OurServices = () => {
 
         <div className="m-2 mb-8 md:my-8">
           <h2 className="text-[24px] my-3 md:my-8">Publishing</h2>
-          <p className="text-[#9DB1BF] text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+          <p className="text-gray-600 text-[16px]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
             We have newspapers all over the states we cover. With all the
             newspapers available, we research their prices as well as their
             dependability and pick the publishing vendor that is most

@@ -9,7 +9,7 @@ export const About = () => {
           The only one-stop solution for publication, posting and foreclosure
           auction services
         </h2>
-        <div className="text-[#9DB1BF] md:my-4 text-[1.1rem]">
+        <div className="text-gray-600 md:my-4 text-[1.1rem]">
           <p>
             Our Trustee Sales service meets all state foreclosure requirements.
             After doing default title work for 11 years our founder saw a void

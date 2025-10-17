@@ -8,7 +8,7 @@ export const Salescalender = () => {
         <h3 className="my-2 text-2xl">To view our sale calendars please use the link below.</h3>
         <div className="my-10 mb-5">
         <a href="https://stox.quickbase.com/nav/app/bk42trzjg/action/appoverview" 
-        className="text-[#9DB1BF] mt-6 pt-5 underline">
+        className="text-gray-600 mt-6 pt-5 underline">
           STOX SALES CALENDAR
         </a>
         </div>
