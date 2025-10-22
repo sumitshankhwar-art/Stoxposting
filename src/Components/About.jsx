@@ -3,13 +3,13 @@ import { Copyright } from "./Copyright";
 export const About = () => {
   return (
     <div>
-      <div className="mx-10 md:mx-20 lg:mx-100"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+      <div className="mx-[5%] md:mx-[10%] lg:mx-[15%]"  style={{ fontFamily: "Josefin Sans, sans-serif" }}>
         <h1 className="text-[#FE6E00] text-8xl font-bold md:my-2 md:mb-8" style={{ fontFamily: "Inconsolata, sans-serif" }}>About</h1>
         <h2 className="my-8 text-2xl " >
           The only one-stop solution for publication, posting and foreclosure
           auction services
         </h2>
-        <div className="text-[#9DB1BF] md:my-4 text-[1.1rem]">
+        <div className="text-gray-600 md:my-4 text-[1.1rem]">
           <p>
             Our Trustee Sales service meets all state foreclosure requirements.
             After doing default title work for 11 years our founder saw a void

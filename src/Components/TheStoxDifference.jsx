@@ -2,14 +2,14 @@ import { Copyright } from "./Copyright";
 
 export const TheStoxDifference = () => {
   return (
-    <div className="mx-10 md:mx-20 lg:mx-100 my-2">
+    <div className="mx-[5%] md:mx-[10%] lg:mx-[15%] my-2">
       <div>
         <h1 className="text-[#FE6E00] text-4xl md:text-6xl font-bold "  style={{ fontFamily: "'Roboto', sans-serif" }}>The STOX Difference</h1>
 
         <div>
           <h2 className="text-2xl m-2 mt-8">We'll find a way to stand out above the rest</h2>
           <div className="p-10">
-          <ul className="list-disc text-[#9DB1BF]">
+          <ul className="list-disc text-gray-600">
             <li>Small Business Personal Feeling, Big Business, Results</li>
             <li>
               You may not be our only client, but we’ll make sure you feel like

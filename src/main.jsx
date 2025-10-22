@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     ],
   },
 ],{
-  basename: '/stoxposting'
+  basename: '/'
 });
 
 createRoot(document.getElementById('root')).render(

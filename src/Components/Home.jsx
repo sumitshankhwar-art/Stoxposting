@@ -3,11 +3,12 @@ import logo from "../assets/d9b98c_2e0dae22681e48b1aec0bb9d0e3fd45d~mv2.png";
 
 export const Home = () => {
   return (
-    <div className="p-4 text-center m-10 mx-10 md:mx-20 lg:mx-80 lg:max-w-250 lg:mt-16 "   style={{ fontFamily: "Outfit, sans-serif" }}>
+    <div className="p-4 text-center m-10 mx-[5%] md:mx-[10%] lg:mx-[15%]
+ lg:max-w-250 lg:mt-16 "   style={{ fontFamily: "Outfit, sans-serif" }}>
     
       <div
         className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2
-       gap-4 items-start"
+       gap-[1%] items-start"
       >
         <div className=" mt-10 font-semibold" 
 >
@@ -24,7 +25,7 @@ export const Home = () => {
           </p>
           <div className="m-4 lg:mt-25">
             <div className="inline-block bg-[#0E2E47] text-white px-10 py-2 rounded hover:bg-[#1a3c5d] transition ">
-              1-801-477-STOX
+            1 (844) 477-STOX
             </div>
           </div>
         </div>
@@ -35,7 +36,7 @@ export const Home = () => {
           className="mx-auto "
         />
       </div>
-      <div className="text-left md:pl-20 md:ml-2 text-gray-400 mb-8 " style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+      <div className="text-left md:pl-[15%] md:ml-[1%] text-gray-600 mb-8 " style={{ fontFamily: "Josefin Sans, sans-serif" }}>
         <p className=" mt-2 text-[1.1rem]">
           Our world revolves around you, the client. We make sure all your
           assignments are handled with care and speed.
