@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { TextAlignJustify,X } from 'lucide-react';
 import { useState } from "react";
-import cornerLogo from "/stox_logo.png"
+import cornerLogo from "/Group29@2x.png"
 
 
 export const Navbar = () => {
