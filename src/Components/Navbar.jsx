@@ -13,8 +13,8 @@ export const Navbar = () => {
   return (
     <div className="p-3 flex bg-[#091f30] justify-between items-center border-b-[5px] border-[#9DB1BF] h-[95px]"   style={{ fontFamily: "'Anton', sans-serif" }}
  >
-      <Link to="/home" className="w-[10rem] h-full">
-        <img src={cornerLogo} alt="logo" className="object-contain h-full"/>
+      <Link to="/home" className="w-[5rem] ">
+        <img src={cornerLogo} alt="logo" className="object-contain w-[5rem] "/>
       </Link>
       {/* nav menu */}  
       <div className="hidden md:flex items-center justify-center flex-grow lg:gap-40">
